@@ -225,8 +225,6 @@
         if ([self.delegate respondsToSelector:@selector(store:didBuyedSuccess:)]) {
             [self.delegate store:self didBuyedSuccess:transaction];
         }
-        
-        LK_SAFE_BLOCK(finishTransactionBlock);
     }];
 }
 

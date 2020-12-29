@@ -15,7 +15,7 @@
 
 @optional
 
-/// Called on product buyed successfully.
+/// Called on product buyed successfully. Note that don't forget finish transaction!
 - (void)store:(LKStoreViewController *)storeVC didBuyedSuccess:(SKPaymentTransaction *)transaction;
 
 /// Called on restore processing. May call multiple times if has more than one transaction.
