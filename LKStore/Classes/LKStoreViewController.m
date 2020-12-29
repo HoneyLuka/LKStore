@@ -93,6 +93,12 @@
 
 - (void)initView
 {
+    if (@available(iOS 13, *)) {
+        self.view.backgroundColor = UIColor.systemBackgroundColor;
+    } else {
+        self.view.backgroundColor = UIColor.blackColor;
+    }
+    
     [self.view addSubview:self.imageView];
     [self.imageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view.mas_safeAreaLayoutGuideTop).offset(20);
