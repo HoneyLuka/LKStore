@@ -1,0 +1,57 @@
+PODS:
+  - LKFoundation (0.1.0)
+  - LKKit (0.1.0):
+    - LKFoundation
+    - Masonry
+    - SVProgressHUD
+  - LKPayment (0.1.0):
+    - LKFoundation
+  - LKStore (0.1.0):
+    - LKKit
+    - LKPayment
+  - Masonry (1.1.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - LKFoundation (from `https://github.com/honeyluka/LKFoundation`)
+  - LKKit (from `https://github.com/honeyluka/LKKit`)
+  - LKPayment (from `https://github.com/honeyluka/LKPayment`)
+  - LKStore (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  LKFoundation:
+    :git: https://github.com/honeyluka/LKFoundation
+  LKKit:
+    :git: https://github.com/honeyluka/LKKit
+  LKPayment:
+    :git: https://github.com/honeyluka/LKPayment
+  LKStore:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  LKFoundation:
+    :commit: 9aa3ebdac8cc14d29e5aa97bf33c188a615e2705
+    :git: https://github.com/honeyluka/LKFoundation
+  LKKit:
+    :commit: 84a5aae1aa7e4420136ca1ede3005db7a2a308ed
+    :git: https://github.com/honeyluka/LKKit
+  LKPayment:
+    :commit: a9f0c0058f70fdb8e7d905ab5b12dcee2817c62b
+    :git: https://github.com/honeyluka/LKPayment
+
+SPEC CHECKSUMS:
+  LKFoundation: 30ef629d95782c697f9e29ee3d5bb221337c833c
+  LKKit: 3b14f84f4714da65dfc639ef3f83e54f4b3feb6a
+  LKPayment: 4d5c4dc823ace3e676e0a63f0e4ff5e11cccaea5
+  LKStore: 5d9cf3da32e2069572384d83b3d9bda84c43cb3d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 8f427ef234ae73cbdb5bcfcc8e1536ec3af7b2a0
+
+COCOAPODS: 1.10.0

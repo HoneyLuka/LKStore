@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'LKStore_Example' do
+  pod 'LKStore', :path => '../'
+  pod 'LKPayment', :git => 'https://github.com/honeyluka/LKPayment'
+  pod 'LKFoundation', :git => 'https://github.com/honeyluka/LKFoundation'
+  pod 'LKKit', :git => 'https://github.com/honeyluka/LKKit'
+
+  target 'LKStore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
